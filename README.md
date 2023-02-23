@@ -2,16 +2,24 @@
 
 ## Description
 
-The purpose of this project is to refactor Horiseon's starter code in order to improve the quality of the code. This project will improve the structure of the program and make it easier to maintain and extend.
+The purpose of this project is to refactor Horiseon's starter code in order to improve the quality of the code. This project will improve the structure of the program and make it easier to maintain and extend. It will not change the displayed styling of the page, only the underlying code.
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
+- [Tasks Completed] (#TasksCompleted)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+
+## Tasks Completed
+
+Consolidated redundant classes
+Replaced HTML elements with semantic HTML elements
+Added alt text to images
+Added comments to explain code in HTML document
+Reorganized CSS to have a logical structure
+Added a descriptive title
 
 ## Installation
 
