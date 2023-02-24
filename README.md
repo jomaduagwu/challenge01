@@ -6,7 +6,7 @@ The purpose of this project is to refactor Horiseon's starter code in order to i
 
 ## Table of Contents (Optional)
 
-- [Tasks Completed] (#TasksCompleted)
+- [Tasks Completed](#TasksCompleted)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
