@@ -90,7 +90,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* any image in an article section will be displayed in a block */
+article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
 /* selectors .benefit-lead, .benefit-brand, and .benefit cost will be white and have a bottom margin of 32px */
 .benefit-lead,
 .benefit-brand,
@@ -98,6 +103,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* need to fix benefit-cost section */
 
 /* any <h3> header in a .benefit-lead, benefit-brand, or benefit-cost selector  will be centered */
 .benefit-lead h3,
@@ -107,14 +113,14 @@ p {
     text-align: center;
 }
 
-/* any image in a .benefit-lead, .benefit-brand, and .benefit-cost selector will be displayed in a block */
+/* any image in a .benefit-lead, .benefit-brand, and .benefit-cost selector will be displayed in a block
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 /* .search-engine-optimization, .online-reputation-management, and .social-media-marketing will have the same properties */
 .search-engine-optimization,
