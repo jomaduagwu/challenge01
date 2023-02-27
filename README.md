@@ -16,10 +16,10 @@ The purpose of this project is to refactor Horiseon's starter code, improving th
 
 * Replaced HTML elements with semantic HTML elements
 * Added alt text to images
-Consolidated redundant classes
-Added comments to explain code in HTML document
-Reorganized CSS to have a logical structure
-Added a descriptive title
+* Consolidated redundant classes
+* Added comments to explain code in HTML document
+* Reorganized CSS to have a logical structure
+* Added a descriptive title
 
 ## Installation
 
@@ -35,9 +35,9 @@ The layout of this application is designed for a traditional desktop web browser
 Starter code was cloned from [Xandromus](https://github.com/coding-boot-camp/urban-octo-telegram.git)
 
 References
-[Semantic HTML](https://web.dev/learn/html/semantic-html/)
-[CSS Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
-[CSS Selectors](https://www.w3schools.com/css/css_selectors.asp)
+* [Semantic HTML](https://web.dev/learn/html/semantic-html/)
+* [CSS Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
+* [CSS Selectors](https://www.w3schools.com/css/css_selectors.asp)
 
 ## License
 
