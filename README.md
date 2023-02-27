@@ -2,7 +2,7 @@
 
 ## Description
 
-The purpose of this project is to refactor Horiseon's starter code in order to improve the quality of the code. This project will improve the structure of the program and make it easier to maintain and extend. It will not change the displayed styling of the page, only the underlying code.
+The purpose of this project is to refactor Horiseon's starter code, improving the structure of the program, making it easier to extend and maintain, and improving the codebase for longterm sustainability. This will not change the displayed styling of the page, only the underlying code.
 
 ## Table of Contents (Optional)
 
@@ -14,9 +14,9 @@ The purpose of this project is to refactor Horiseon's starter code in order to i
 
 ## Tasks Completed
 
-Consolidated redundant classes
 Replaced HTML elements with semantic HTML elements
 Added alt text to images
+Consolidated redundant classes
 Added comments to explain code in HTML document
 Reorganized CSS to have a logical structure
 Added a descriptive title
