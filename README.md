@@ -28,7 +28,7 @@ N/A
 ## Usage
 
 The layout of this application is designed for a traditional desktop web browser. It is not optimized for any screen size, so some of the layouts will not look like the screenshot below when viewed at a resolution lower than 768px. 
-[Horiseon webpage screenshot](Develop/assets/images/horiseon-webpage-screenshot.png)
+![Horiseon webpage screenshot](Develop/assets/images/horiseon-webpage-screenshot.png)
 
 ## Credits
 
