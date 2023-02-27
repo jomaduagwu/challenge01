@@ -3,12 +3,12 @@
     padding: 0;
     margin: 0;
 }
-/* made the background color of the body green */
+/* background color in body */
 body {
     background-color: #d9dcd6;
 }
 
-/* Changed all ".header" and replaced with "header" to match semantics in HTML */
+/* header section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,7 +16,7 @@ header {
     color: #ffffff;
 }
 
-/* any <h1> heading with a .header selector will be displayed horizontally */
+/* h1 headings in header section */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -26,7 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* changed all "div" to "nav" to match semantics in HTML */
+/* navigation links in header section */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,12 +35,12 @@ header nav {
     font-size: 20px;
 }
 
-/* any unordered list in the .header selector will not have bullet points */
+/* unordered lists in navigation section in  header */
 header nav ul {
     list-style-type: none;
 }
 
-/* any line item in an unordered list in the .header selector will be displayed horizontally */
+/* line items in unordered lists under navigation section in header */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -51,10 +51,12 @@ a {
     text-decoration: none;
 }
 
+/* paragraph */
 p {
     font-size: 16px;
 }
 
+/* background image banner */
 .hero {
     height: 800px;
     width: 100%;
@@ -74,12 +76,14 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* services provided */
+.services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* horiseon benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,42 +94,27 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* any image in an article section will be displayed in a block */
-article img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* selectors .benefit-lead, .benefit-brand, and .benefit cost will be white and have a bottom margin of 32px */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+
+/* Horiseon benefits section */
+benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* need to fix benefit-cost section */
 
-/* any <h3> header in a .benefit-lead, benefit-brand, or benefit-cost selector  will be centered */
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+/* h3 heading in benefits section */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-/* any image in a .benefit-lead, .benefit-brand, and .benefit-cost selector will be displayed in a block
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+/* image in benefits section */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-} */
+}
 
-/* .search-engine-optimization, .online-reputation-management, and .social-media-marketing will have the same properties */
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+/* .service class for services provided */
+.service {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -134,22 +123,18 @@ article img {
     color: #ffffff;
 }
 
-/* any image with a .search-engine-optimization selector will have a max height of 200px */
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+/* image in service section */
+.service img {
     max-height: 200px;
 }
 
-/* any <h2> header in a .social-media-marketing selector will be size 36px font and have a bottom margin of 20px */
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+/* h2 heading in service section */
+.service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* changed ".footer" to "footer" */
+/* Footer */
 footer {
     padding: 30px;
     clear: both;
@@ -157,6 +142,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* h2 heading in footer */
+.footer h2 {
     font-size: 20px;
 }
